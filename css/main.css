@@ -1,12 +1,51 @@
 * {
-  font-family: "Inter", sans-serif;
-  font-weight: light;
+  font-family: "Inter-light", sans-serif;
 }
 
 h1 {
   font-weight: bold;
+  font-size: 3rem;
 }
-
+h3 {
+  line-height: 1.3;
+}
+#title {
+  background-color: #002d4f;
+  color: white;
+}
+.navbar {
+  background-color: #002d4f;
+  );
+}
 #navbar-logo {
   height: 30px;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.nav-link {
+  color: rgb(203, 203, 203);
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.btn-outline-primary {
+  color: white;
+  border-color: white;
+  background-color: black;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgb(47, 47, 47);
+  border-color: white;
+}
+
+#phone-mockup {
+  width: 300px;
 }
