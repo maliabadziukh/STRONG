@@ -9,12 +9,11 @@ h1 {
   margin-bottom: 2rem;
 }
 h2 {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 2rem;
 }
 p {
   font-size: 1.3rem;
-  color: rgb(71, 71, 71);
 }
 .container-fluid {
   padding: 0 15%;
@@ -63,9 +62,6 @@ p {
   background-color: #002d4f;
   color: white;
 }
-#title p {
-  color: white;
-}
 
 #call-to-action {
   padding: 25% 0;
@@ -76,7 +72,13 @@ p {
   margin: 1rem 2rem;
 }
 
-/* fEATURES SECTION */
+@media (max-width: 992px) {
+  #call-to-action {
+    padding-bottom: 10%;
+  }
+}
+
+/* FEATURES SECTION */
 #features {
   padding: 6rem 0;
 }
@@ -91,4 +93,118 @@ p {
 }
 #features .col-lg-4:hover {
   color: #035ca0;
+}
+
+/* REVIEWS SECTION */
+#reviews {
+  background-color: #002d4f;
+  color: white;
+  text-align: center;
+}
+
+.reviewer img {
+  width: 130px;
+  border-radius: 100%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.reviewer {
+  margin-top: 6rem;
+}
+.reviewer-text {
+  display: inline-block;
+  text-align: left;
+}
+.carousel-item {
+  padding: 12rem 12rem 0;
+}
+
+.media {
+  height: 50px;
+  margin: 6rem 2rem;
+}
+
+@media (max-width: 992px) {
+  .carousel-item {
+    padding: 4rem 5rem 0;
+  }
+  .carousel-item h2 {
+    font-size: 1.5rem;
+  }
+  .reviewer img {
+    width: 75px;
+    border-radius: 100%;
+    margin-top: 0;
+    margin-right: 2%;
+    margin-left: auto;
+  }
+  /* .reviewer-text {
+    width: 60%;
+  } */
+  .reviewer-text h3 {
+    font-size: 1.2rem;
+  }
+  .reviewer-text p {
+    font-size: 0.75rem;
+  }
+  .media {
+    height: 30px;
+    margin: 3rem 1rem;
+  }
+}
+
+/* NUMBERS SECTION */
+#numbers {
+  padding: 6rem 4rem;
+}
+#numbers .col-lg-4 {
+  padding: 2rem;
+  text-align: center;
+}
+
+#numbers .card:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+#numbers .card-header {
+  text-align: center;
+  color: white;
+  background-color: #002d4f;
+  padding: 1rem;
+}
+
+#numbers h3 {
+  font-weight: 600;
+}
+
+#numbers .stars {
+  font-size: 2rem;
+  margin: 1rem;
+}
+#numbers .worldwide {
+  margin: 1rem;
+}
+
+@media (max-width: 1220px) {
+  #numbers h3 {
+    font-size: 1.25rem;
+  }
+  #numbers p {
+    font-size: 1rem;
+  }
+}
+
+/* END BANNER */
+#end-banner {
+  background-color: #002d4f;
+  color: white;
+  text-align: center;
+  padding: 6rem 15%;
+}
+
+#end-banner .btn-outline-primary {
+  margin-right: 2rem;
+  font-size: 1.5rem;
 }
